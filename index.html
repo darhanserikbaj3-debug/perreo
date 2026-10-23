@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PeRREO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-4">
+        <form class="mb-4">
+            <label class="form-label" for="name">Name:</label>
+            <input type="text" class="form-control mb-3" id="name" placeholder="Enter your name">
+
+            <label class="form-label" for="year">Year:</label>
+            <input type="number" id="year" class="form-control mb-3" placeholder="Enter your year of birth">
+
+            <button class="btn btn-primary" id="btn">Create/Update User:</button>
+        </form>
+
+        <br>
+
+        <div class="container p-0">
+            <ul id="listOfHobbies" class="mb-3">
+
+            </ul><br>
+
+            <input class="form-control mb-3" type="text" id="newHobby" placeholder="Enter a hobby">
+            <div class="d-flex gap-2">
+                <button class="btn btn-primary" id="addHobby">Add hobby</button>
+                <button class="btn btn-primary" id="removeitem">Remove hobby</button>
+            </div>
+        </div>
+    </div>      
+    <script src="javas.js"></script>
+</body>
+</html> 
